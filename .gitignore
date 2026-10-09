@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+**/dist/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Editor files
+.vscode/
+.DS_Store
+
+# Local database temporary files
+*.db-journal
+*.db-wal
+*.db-shm
+# Local simulation database
+server/supermarket.db
